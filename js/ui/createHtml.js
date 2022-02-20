@@ -31,7 +31,5 @@ export function createHtml(productsToRender) {
         button.addEventListener("click", clickEvent);
     });
 
-    function saveWishes(wishes) {
-        localStorage.setItem("wishes", JSON.stringify(wishes));
-    }
+
 }
